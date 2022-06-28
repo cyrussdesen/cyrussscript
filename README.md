@@ -95,7 +95,7 @@ local FirstSection1 = page1:addSection("Auto Farm")
 local FirstSection2 = page1:addSection("Seçenekler")
 
 FirstSection1:addToggle(
-    "Etkinleştirildi",
+    "Etkinleştir",
     nil,
     function(value)
         AutoFarm = value
@@ -117,8 +117,8 @@ local SecondSection1 = page2:addSection("Info")
 local SecondSection2 = page2:addSection("Ayarlar")
 
 SecondSection1:addButton("Yapıcılar:")
-SecondSection1:addButton("cyrussdesen#0540 - scripter", function() setclipboard("cyrussdesen#0540") jailbreakNotify("Kopyalandı") end)
-SecondSection1:addButton("cyrussdesen#0540 - ui library", function() setclipboard("cyrussdesen#0540") jailbreakNotify("Kopyalandı.") end)
+SecondSection1:addButton("alohabeach#3448 - scripter", function() setclipboard("cyrussdesen#0540") jailbreakNotify("Kopyalandı") end)
+SecondSection1:addButton("cyrussdesen#0540 - çeviri", function() setclipboard("cyrussdesen#0540") jailbreakNotify("Kopyalandı.") end)
 SecondSection1:addButton("Youtube:")
 SecondSection1:addButton("cyrussdesen", function() setclipboard("https://www.youtube.com/channel/UCUjRqRxOW4HNPqXIf1ipZnQ") jailbreakNotify("Kopyalandı") end)
 SecondSection2:addToggle(
